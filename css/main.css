@@ -1,0 +1,103 @@
+body {
+	font-family: helvetica;
+	font-size: 14pt;
+	color: black;
+	width: 60%;
+	margin-left: 20%;
+	text-align: justify;
+	background-color: white;
+}
+
+.site-header {
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 75px;
+}
+
+a, a:visited, a:hover, a:active {
+	color: black;
+}
+
+p {
+	line-height: 125%;
+}
+
+.site-header h1 {
+	font-size: 250%;
+	color: #FF9147;
+	text-transform: uppercase;
+	margin-bottom: 10pt;
+}
+
+.site-header h1 a {
+	color: #FF9147;
+}
+
+.site-header h2 {
+	font-size: 90%;
+	margin: 2px;
+}
+
+.site-header a {
+	text-decoration: none;
+}
+
+.subtitle {
+	margin-bottom: 25pt;
+}
+
+.menu-nav ul {
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.menu-nav ul li {
+	display: inline;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.menu-nav ul li a {
+	text-decoration: underline;
+}
+
+.page-link {
+	font-size: 110%;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+
+
+footer {
+	margin-top: 40px;
+	font-size: 0.75em;
+	border-top: 3px;
+	border-color: black;
+	text-align: center;
+}
+
+.nav-links ul {
+	list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav-links ul li {
+	display: inline;
+    padding-left: 15px;
+}
+
+.post-title {
+	margin-bottom : 5px;
+}
+
+.post-title h1 {
+	font-size: 150%;
+	margin: 0px;
+}
+
+.post-content {
+	margin: 0px;
+}

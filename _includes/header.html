@@ -1,0 +1,25 @@
+<header class="site-header">
+
+  <div class="wrapper">
+
+    <h1><a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+    <div class="subtitle" >
+      <h2>Start today: Pitch your idea. Get feedback from experts.</h2>
+      <h2> Find co-founders, employees, investors.</h2>
+    </div>
+    
+    <nav class="site-nav">
+      <div class="menu-nav">
+        <ul>
+          {% for page in site.pages %}
+            {% if page.title %}
+            <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </nav>
+
+  </div>
+
+</header>
